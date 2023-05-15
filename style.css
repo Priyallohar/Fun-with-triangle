@@ -65,6 +65,12 @@ input:hover{
 }
 
 /* guess angle css*/
+.instruction{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    width:60%;
+    color: #affc41;
+}
 
 .given-angle{
     font-size: 1.5rem;
