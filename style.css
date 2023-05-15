@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #264653;
+    color:#fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+.heading{
+    font-size: 2.5rem;
+    background-color: #affc41;
+    width:100%;
+    padding:15px;
+    color:#264653;
+}
+.inputheading{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+input{
+   margin: 10px auto 10px;
+   padding: 10px 30px;
+   text-align: center;
+   outline: none;
+   border-radius: 5px;
+}
+input:hover{
+    box-shadow: 1px 1px 2px 1px grey;
+}
+
+#Check-Result,#Check-Result-btn{
+    margin-top: 10px;
+    padding:10px 30px;
+    font-weight:700;
+    border-radius: 5px;
+    box-shadow: 0px solid white;
+}
+
+#Check-Result:hover,#Check-Result-btn:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.triangle-result{
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+.error-message{
+    color:red
+}
+
+.hypotenuse-result,.triangle-area{
+    color:#affc41
+}
+
+/* guess angle css*/
+
+.given-angle{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.generate-angle{
+    margin-top: 20px;
+    padding:10px 30px;
+    font-weight:700;
+    border-radius: 5px;
+    box-shadow: 0px solid white;
+}
+.first-angle,.second-angle{
+    display: inline;
+    color: #affc41;
+    margin-left: 10px;
+}
+
+.guess-result{
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.guess-error-message{
+    font-size: 2rem;
+    color:red;
+    font-weight: 600;
+}
+
+.angle-genrate {
+    display: inline-flex;
+  }
+
+/*quiz css */
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+.question{
+    margin: 20px;
+}
+
+.question p{
+    font-size: 1.5rem;
+}
+
+.question label{
+    margin:10px 30px;
+    font-size: 1.2rem;
+}
+
+input[type="radio"] {
+    outline: none;
+  }
+
+.question label:hover{
+    border-radius: 50px;
+    box-shadow: 2px 1px 2px 2px #affc41;
+}
+
+.submit-btn{
+    margin-top: 10px;
+    padding:10px 30px;
+    font-weight:600;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0px solid white;
+}
+
+.submit-btn:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.quiz-result{
+    display: none;
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color:white;
+    background-color:green;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess third Angle</title>
+</head>
+<body>
+    <main class="container">
+        <h1 class="heading" >Guess the third angle</h1>
+
+        <p  class="instruction"> First click on generate angle to generate first and second angle. afterward write your answer in input then click on result button to see result</p>
+        <section class="Angle-Value">
+        <div class="given-angle"> <h3 class = "angle-genrate">First angle is <span class="first-angle"></span></h3> </div>
+        <div class="given-angle"> <h3 class = "angle-genrate"> Second angle is <span class="second-angle"></span></h3> </div>
+        <button class="generate-angle">Generate Angle</button>
+        <div>
+            <h3 class="inputheading">Guess the third angle</h3>
+            <input
+          type="number"
+          required
+          id="third-angle"
+          placeholder="Guess Angle"
+          min="1"
+        />
+        </div>
+    </section>
+    
+
+    <div class="guess-result"></div>
+
+    <div class="guess-error-message"></div>
+
+    <button id="Check-Result-btn">Result</button>
+
+    
+    </main>
+    <script src="guess-third-angle.js"></script>
+</body>
+</html>
